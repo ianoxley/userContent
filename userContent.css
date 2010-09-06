@@ -1,0 +1,21 @@
+/**
+ * userContent.css
+ * ---------------
+ */
+
+@-moz-document domain(mail.google.com) {
+	/* Give GMail a fixed toolbar */
+	body > div > div > div > div > div.nH > div > div[role="navigation"] {
+		background:rgba(26, 32, 34, 0.9) !important;
+		display:block;
+		left:0;
+		position: fixed;
+		top:0;
+		width:100%;
+		z-index:1000;
+	}
+	body > div > div > div > div > div.nH > div:last-child {
+		margin-top:24px;
+	}	
+}
+
